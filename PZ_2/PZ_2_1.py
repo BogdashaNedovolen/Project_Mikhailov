@@ -1,1 +1,1 @@
-print("brbrbrbrbrbr")
+print("brbrbrbrbr")
