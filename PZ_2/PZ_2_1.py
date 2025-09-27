@@ -15,7 +15,5 @@ try:
 
     print(f'Длина незанятой части отрезка A: {result}')
     
-except ValueError as e:
+except Exception as e:
     print(f'Ошибка ввода: {e}')
-except:
-    print(f'Ошибка ввода. Попробуйте ещё раз')
