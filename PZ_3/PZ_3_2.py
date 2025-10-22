@@ -29,27 +29,11 @@ while (month_number > 12) or (month_number < 1):
 
 
 
-if month_number == 1:
+if month_number == 1 or month_number == 3 or month_number == 5 or month_number == 7 or month_number == 8 or month_number == 10 or month_number == 12:
     print('Количество дней в указанном месяце - 31')
 elif month_number == 2:
     print('Количество дней в указанном месяце - 28')
 elif month_number == 3:
     print('Количество дней в указанном месяце - 31')
-elif month_number == 4:
-    print('Количество дней в указанном месяце - 30')
-elif month_number == 5:
-    print('Количество дней в указанном месяце - 31')
-elif month_number == 6:
-    print('Количество дней в указанном месяце - 30')
-elif month_number == 7:
-    print('Количество дней в указанном месяце - 31')
-elif month_number == 8:
-    print('Количество дней в указанном месяце - 31')
-elif month_number == 9:
-    print('Количество дней в указанном месяце - 30')
-elif month_number == 10:
-    print('Количество дней в указанном месяце - 31')
-elif month_number == 11:
-    print('Количество дней в указанном месяце - 30')
-elif month_number == 12:
-    print('Количество дней в указанном месяце - 31')
+elif month_number == 4 or month_number == 6 or month_number == 9 or month_number == 11:
+    print('Количество дней в указанном месяце - 3')
