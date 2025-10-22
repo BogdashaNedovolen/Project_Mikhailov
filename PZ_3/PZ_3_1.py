@@ -28,4 +28,4 @@ elif (A % 2 == 0 and B % 2 == 0):
 elif (A % 2 != 0 and B % 2 != 0):
     print(f'Высказывание неверно, оба числа нечётные.\nЧисла: {A} и {B}.')
 else:
-    raise ValueError()
+    print('Ошибка..')
