@@ -3,9 +3,8 @@
 """
 
 def rasschoyt(n):
-    kolvo = 0
+    kolvo = 1
     while n > 0:
-        n % 10
         n //= 10
         kolvo += 1
     return kolvo
