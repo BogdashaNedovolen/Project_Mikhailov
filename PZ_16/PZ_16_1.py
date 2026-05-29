@@ -12,5 +12,6 @@ class Building:
     def info(self):
         print(f'Адрес: {self.address}. Количество этажей: {self.floors}')
 
-house = Building(input('Введите адрес: '), input('Введите количество этажей: '))
+house = Building('ул. Ленина, 10', 5)
+# house = Building(input('Введите адрес: '), input('Введите количество этажей: '))
 house.info()
