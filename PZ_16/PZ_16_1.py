@@ -12,6 +12,15 @@ class Building:
     def info(self):
         print(f'Адрес: {self.address}. Количество этажей: {self.floors}')
 
-house = Building('ул. Ленина, 10', 5)
-# house = Building(input('Введите адрес: '), input('Введите количество этажей: '))
+
+address = input('Введите адрес: ')
+while True:
+    try:
+        floors = int(input('Введите количество этажей: '))
+        break
+    except ValueError:
+        print('Пожалуйста, введите число для количества этажей.')
+
+# house = Building('ул. Ленина, 10', 5)
+house = Building(address, floors)
 house.info()
